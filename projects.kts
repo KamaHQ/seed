@@ -5,7 +5,7 @@ project("KamaHQ/dummy") {
     repository = GitHubRepository("KamaHQ", "testcontainers-java-examples")
 
     triggers {
-        cron("0 */5 * * * *")
+        cron("0 */3 * * * *")
         vcs()
     }
 }
