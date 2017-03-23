@@ -11,7 +11,7 @@ project("KamaHQ/dummy") {
 }
 
 
-project("KamaHQ/dummy-fork") {
+project("KamaHQ/dummy1") {
     repository = GitHubRepository("KamaHQ", "testcontainers-java-examples")
 
     triggers {
