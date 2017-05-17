@@ -1,5 +1,4 @@
 import com.github.kama.*
-import com.github.kama.triggers
 import com.github.openvcs.github.GitHubRepository
 
 project("KamaHQ/dummy") {
