@@ -9,3 +9,11 @@ project("KamaHQ/dummy") {
         vcs()
     }
 }
+
+project("KamaHQ/dummy-fork") {
+    repository = GitHubRepository("KamaHQ", "testcontainers-java-examples")
+
+    triggers {
+        cron("0 */10 * * * *")
+    }
+}
